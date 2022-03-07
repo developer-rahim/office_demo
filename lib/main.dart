@@ -18,7 +18,7 @@ void main() {
         debugShowCheckedModeBanner: false,
         title: 'Demo App',
         theme: ThemeData(fontFamily: 'rrr'),
-        home: LoginPage(),
+        home: DashBoardScreen(),
         routes: {
           '/dashborh': (context) => DashBoardScreen(),
           '/profile': (context) => ProfilePage(),
